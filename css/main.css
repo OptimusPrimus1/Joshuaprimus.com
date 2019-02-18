@@ -1,0 +1,118 @@
+
+body {
+   background-color: #0d0d0d;
+   font-family: 'Cormorant', serif;
+}
+
+p {
+    color:#fff;
+    font-family: arial;
+    font-size:156%;
+    line-height: 125%;
+    word-spacing:5%;
+}
+
+.container {
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;
+}
+
+.intro {
+  position: absolute;
+  top:27%;
+  left:61%;
+}
+
+.about {
+  width: 100%;
+  padding:0px;
+  margin:0px;
+}
+
+.bar {
+  display:table;
+  margin:0;
+  padding:0;
+  height:100%;
+  width: 50%;
+  background: url("../img/jeans.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: left;
+}
+
+header {
+  width:100%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+header h2 {
+   position: absolute;
+   left:4%;
+   top:3%;
+}
+
+header h2 a:hover {
+  text-decoration:underline;
+}
+
+header h2 a {
+  text-decoration: none;
+  color: #fff;
+  font-weight:lighter;
+}
+
+nav ul li {
+font-size: 130%;
+font-weight: 500;
+list-style-type: none;
+}
+
+nav {
+  position: absolute;
+  top:35px;
+  left:80%;
+}
+
+li {
+  display:inline-block;
+}
+
+li a {
+  color:white;
+  text-decoration: none;
+  width: 100%;
+  padding:12px;
+}
+
+li a:hover {
+  color:#888;
+  text-decoration: underline;
+}
+
+.copy {
+  position: absolute;
+  top:90%;
+  left:79%;
+  font-weight: lighter;
+  color:#fff;
+
+}
+
+h3 a{
+  color:#fff;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+h3 a:hover {
+  color:#0000FF;
+}
+
+span {
+  color:#b3b3b3;
+}
